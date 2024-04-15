@@ -1,1 +1,1 @@
-# skyz-fe
+Test task for SKYZ
