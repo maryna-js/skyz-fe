@@ -19,7 +19,11 @@ const config: Config = {
         'tuft-bush': '#FFE0CE',
         'trinidad': '#E64300',
         'atomic-tangerine':'FFA370',
-
+        'malibu': '#4FD5FF',
+        'blue-dianne': '#214D5B',
+        'curious-blue': '#1CA2CC',
+        'abbey': '#555961',
+        'woodsmoke': '#131519',
       },
       height: {
         '61px': '3.8125rem',

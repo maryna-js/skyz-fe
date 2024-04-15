@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Table from './components/Table';
+import BreadcrumbTitle from './components/BreadcrumbTitle';
 
 interface DataItem {
   column1: string;
@@ -18,6 +19,7 @@ const TablePage: React.FC = () => {
   return (
     <div className="bg-cod-gray h-screen">
       <Header />
+      <BreadcrumbTitle />
       <main>
         <h1>Table Page</h1>
         <Table data={data} />
