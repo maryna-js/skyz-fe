@@ -41,7 +41,11 @@ const config: Config = {
       backgroundImage: theme => ({
         'custom-background': "url('/bg-image.png')",
       }),
+      fontSize: {
+        xxs: '0.625rem',
+      }
     },
+    
   },
   plugins: [],
 };
