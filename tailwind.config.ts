@@ -25,8 +25,13 @@ const config: Config = {
         '61px': '3.8125rem',
       },
       width: {
+        '118px': '7.375rem',
         '166px': '10.375rem',
         '275px': '17.1875rem',
+      },
+      screens: {
+        'pm': '430px',
+        '4xl': '1780px',
       }
     },
   },

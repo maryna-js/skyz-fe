@@ -3,7 +3,7 @@ import React from 'react';
 const ButtonDropDown: React.FC = () => {
   return (
       <div>
-        <button className="h-61px w-166px color-white rounded-lg flex pointer hover:opacity-90">
+        <button className="h-11 4xl:h-61px w-118px 4xl:w-166px color-white rounded-lg flex pointer hover:opacity-90">
             <div className="bg-blaze-orange w-9/12 h-full rounded-l-lg flex justify-center items-center">
                 <img src="/button-text.svg" alt="Icon" />
             </div>
