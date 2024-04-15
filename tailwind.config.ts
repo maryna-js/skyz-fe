@@ -12,6 +12,14 @@ const config: Config = {
         'cod-gray': '#1E1E1E',
         'blaze-orange': '#FF5C00',
         'river-bed': '#464F61',
+        'cod-gray-opacity': 'rgba(70, 79, 97, 0.27)',
+        'slate-gray': '#798294',
+        'white-lilac': '#EAEEF7',
+        'shark': '#2E3137',
+        'tuft-bush': '#FFE0CE',
+        'trinidad': '#E64300',
+        'atomic-tangerine':'FFA370',
+
       },
       height: {
         '61px': '3.8125rem',
