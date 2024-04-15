@@ -20,10 +20,10 @@ const TablePage: React.FC = () => {
     <div className="bg-cod-gray h-screen">
       <Header />
       <BreadcrumbTitle />
-      <main>
+      {/* <main>
         <h1>Table Page</h1>
         <Table data={data} />
-      </main>
+      </main> */}
     </div>
   );
 }

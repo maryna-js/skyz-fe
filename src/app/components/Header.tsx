@@ -6,22 +6,20 @@ import Button from './Button';
 
 const Header: React.FC = () => {
   return (
-    <header className="w-full h-24 lg:h-28 py-4 px-8 4xl:px-24 flex justify-start lg:justify-between items-center border border-b border-shark">
+    <header className="w-full h-24 lg:h-28 py-4 pl-8 pr-4 4xl:px-24 flex justify-start lg:justify-between items-center border border-b border-shark">
       <div className="w-full lg:w-1/2 flex justify-between lg:justify-start items-center">
-        <div className="mr-28 4xl:mr-36 flex items-center">
+        <div className="mr-16 4xl:mr-36 flex items-center">
           <img src="/logo.png" alt="Logo" className="w-28" />
         </div>
-        <div className="flex items-center">
-          <div className="mr-12">
+        <div className="flex items-center justify-end">
+          <div className="mr-0 lg:mr-12 flex items-center justify-end">
             <ButtonDropDown />
+            <button className="flex lg:hidden ml-4">
+                <img src="/hamburger.svg" className="w-9"/>
+            </button>
           </div>
           <div className="hidden lg:block">
             <SearchBar />
-          </div>
-          <div className="flex lg:hidden">
-            <button>
-                <img src="/hamburger.svg"/>
-            </button>
           </div>
         </div>
       </div>
