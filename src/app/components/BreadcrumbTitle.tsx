@@ -10,9 +10,9 @@ const BreadcrumbTitle: React.FC = () => {
        <span className="px-2">/</span>
        <span className="text-white-lilac">REBELS VS RIDERS</span>
       </nav>
-      <div className="flex-col lg:flex-row flex items-center justify-between pt-3">
-        <h1 className="text-lg lg:text-4xl font-bold text-white">UPCOMING LEAGUE OF LEGENDS MATCHES</h1>
-        <div className="justify-between pt-6 4xl:pt-0 ml-0 4xl:-ml-6 w-full lg:w-auto">
+      <div className="flex-col lg:flex-row flex items-center justify-start lg:justify-between pt-3">
+        <h1 className="text-lg lg:text-4xl font-bold text-white text-left w-full lg:w-1/2">UPCOMING LEAGUE OF LEGENDS MATCHES</h1>
+        <div className="flex justify-between lg:justify-end pt-6 4xl:pt-0 ml-0 4xl:-ml-6 w-full lg:w-1/3">
             <button className="w-1/2 lg:w-auto bg-malibu text-blue-dianne uppercase text-sm px-4 py-2 hover:bg-curious-blue rounded-lg">UPCOMING</button>
             <button className="w-1/2 lg:w-auto bg-woodsmoke text-abbey uppercase text-sm px-4 py-2 hover:bg-cod-gray-opacity rounded-lg">Finished</button>
         </div>

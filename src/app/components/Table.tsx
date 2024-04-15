@@ -21,16 +21,16 @@ const Table: React.FC<TableProps> = ({ data }) => {
             <td className="py-2 pl-8 w-28 hidden lg:table-cell">
               <img src="/b03.svg"/>
             </td>
-            <td className="py-2 pl-4 lg:pl-8 w-28 lg:w-40">
-              <div className="flex items-center lg:border-l border-river-bed lg:pl-10">
+            <td className="py-2 pl-4 xl:pl-8 w-28 xl:w-40">
+              <div className="flex items-center lg:border-l border-river-bed lg:pl-6 xl:pl-10">
                 <img src="/fnatic.svg" className="order-2 lg:order-1" />
-                <span className="uppercase pr-2 lg:pr-0 lg:pl-3 text-white-lilac text-xxs lg:text-xs">FNATIC</span>
+                <span className="uppercase pr-2 xl:pr-0 xl:pl-3 text-white-lilac text-xxs lg:text-xs">FNATIC</span>
               </div>
             </td>
             <td className="py-2 pl-2 lg:pl-12 w-auto lg:w-28">
               <img src="/vs.svg"/>
             </td>
-            <td className="py-2 w-auto lg:w-40">
+            <td className="py-2 w-auto xl:w-40">
               <div className="flex items-center">
                 <img src="/vitality.svg"/>
                 <span className="uppercase pl-3 text-white-lilac text-xxs lg:text-xs">Team VITALITY</span>
@@ -39,11 +39,11 @@ const Table: React.FC<TableProps> = ({ data }) => {
             <td className="px-3 py-2 max-w-5xl truncate hidden lg:table-cell">
             <div className="flex items-center">
                 <img src="/esl.svg"/>
-                <span className="pl-4 text-river-bed text-base">ESL Chalenger League Season 44 Europe</span>
+                <span className="pl-4 text-river-bed text-base lg:text-xs xl:text-base">ESL Chalenger League Season 44 Europe</span>
               </div>
             </td>
-            <td className="pr-4 lg:pr-16 py-2 text-xxs lg:text-sm">
-            <div className="lg:pl-20 flex items-center justify-end lg:border-l border-river-bed h-7 text-malibu">
+            <td className="pr-4 xl:pr-8 2xl:pr-16 py-2 text-xxs xl:text-sm">
+            <div className="lg:pl-3 xl:pl-6 2xl:pl-20 flex items-center justify-end lg:border-l border-river-bed h-7 text-malibu">
               22:45 PM
             </div>
             </td>
@@ -56,16 +56,16 @@ const Table: React.FC<TableProps> = ({ data }) => {
             <td className="py-2 pl-8 w-28 hidden lg:table-cell">
               <img src="/b03.svg"/>
             </td>
-            <td className="py-2 pl-4 lg:pl-8 w-28 lg:w-40">
-              <div className="flex items-center lg:border-l border-river-bed lg:pl-10">
+            <td className="py-2 pl-4 xl:pl-8 w-28 xl:w-40">
+              <div className="flex items-center lg:border-l border-river-bed lg:pl-6 xl:pl-10">
                 <img src="/sporut.svg" className="order-2 lg:order-1"/>
-                <span className="uppercase pr-2 lg:pr-0 lg:pl-3 text-white-lilac text-xxs lg:text-xs">sporut</span>
+                <span className="uppercase pr-2 xl:pr-0 xl:pl-3 text-white-lilac text-xxs lg:text-xs">sporut</span>
               </div>
             </td>
             <td className="py-2 pl-2 lg:pl-12 w-auto lg:w-28">
               <img src="/vs.svg"/>
             </td>
-            <td className="py-2 w-auto lg:w-40">
+            <td className="py-2 w-auto xl:w-40">
               <div className="flex items-center">
                 <img src="/virtus.svg"/>
                 <span className="uppercase pl-3 text-white-lilac text-xxs lg:text-xs">Virtus PRO</span>
@@ -74,11 +74,11 @@ const Table: React.FC<TableProps> = ({ data }) => {
             <td className="px-3 py-2 max-w-5xl truncate hidden lg:table-cell">
             <div className="flex items-center">
                 <img src="/esl.svg"/>
-                <span className="pl-4 text-river-bed text-base">ESL Chalenger League Season 44 Europe</span>
+                <span className="pl-4 text-river-bed text-base lg:text-xs xl:text-base">ESL Chalenger League Season 44 Europe</span>
               </div>
             </td>
-            <td className="pr-4 lg:pr-16 py-2 text-xxs lg:text-sm">
-            <div className="lg:pl-20 flex items-center justify-end lg:border-l border-river-bed h-7 text-white">
+            <td className="pr-4 xl:pr-8 2xl:pr-16 py-2 text-xxs xl:text-sm">
+            <div className="lg:pl-3 xl:pl-6 2xl:pl-20 flex items-center justify-end lg:border-l border-river-bed h-7 text-white">
               LIVE
               <span className="rounded-full h-1.5 w-1.5 bg-scarlet ml-3"></span>
             </div>
@@ -92,16 +92,16 @@ const Table: React.FC<TableProps> = ({ data }) => {
             <td className="py-2 pl-8 w-28 hidden lg:table-cell">
               <img src="/b03.svg"/>
             </td>
-            <td className="py-2 pl-2 lg:pl-8 w-28 lg:w-40">
-              <div className="flex items-center lg:border-l border-river-bed lg:pl-10">
+            <td className="py-2 pl-2 xl:pl-8 w-28 xl:w-40">
+              <div className="flex items-center lg:border-l border-river-bed lg:pl-6 xl:pl-10">
                 <img src="/sk.svg" className="order-2 lg:order-1"/>
-                <span className="uppercase pr-2 lg:pr-0 lg:pl-3 text-white-lilac text-xxs lg:text-xs">sk gaming</span>
+                <span className="uppercase pr-2 xl:pr-0 xl:pl-3 text-white-lilac text-xxs lg:text-xs">sk gaming</span>
               </div>
             </td>
             <td className="py-2 pl-2 lg:pl-12 w-auto lg:w-28 text-white">
               <span>4:6</span>
             </td>
-            <td className="py-2 w-auto lg:w-40">
+            <td className="py-2 w-auto xl:w-40">
               <div className="flex items-center">
                 <img src="/navi.svg"/>
                 <span className="uppercase pl-3 text-white-lilac text-xxs lg:text-xs">navi</span>
@@ -110,11 +110,11 @@ const Table: React.FC<TableProps> = ({ data }) => {
             <td className="px-3 py-2 max-w-5xl truncate hidden lg:table-cell">
             <div className="flex items-center">
                 <img src="/esl.svg"/>
-                <span className="pl-4 text-river-bed text-base">ESL Chalenger League Season 44 Europe</span>
+                <span className="pl-4 text-river-bed text-base lg:text-xs xl:text-base">ESL Chalenger League Season 44 Europe</span>
               </div>
             </td>
-            <td className="pr-4 lg:pr-16 py-2 text-xxs lg:text-sm">
-            <div className="lg:pl-20 flex items-center justify-end lg:border-l border-river-bed h-7 text-white">
+            <td className="pr-4 xl:pr-8 2xl:pr-16 py-2 text-xxs xl:text-sm">
+            <div className="lg:pl-3 xl:pl-6 2xl:pl-20 flex items-center justify-end lg:border-l border-river-bed h-7 text-white">
               LIVE
               <span className="rounded-full h-1.5 w-1.5 bg-scarlet ml-3"></span>
             </div>
