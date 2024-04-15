@@ -17,13 +17,12 @@ const TablePage: React.FC = () => {
   ];
 
   return (
-    <div className="bg-cod-gray h-screen">
+    <div className="bg-cod-gray h-screen z-20">
       <Header />
-      <BreadcrumbTitle />
-      {/* <main>
-        <h1>Table Page</h1>
-        <Table data={data} />
-      </main> */}
+        <BreadcrumbTitle />
+        <main>
+          <Table data={data} />
+        </main>
     </div>
   );
 }

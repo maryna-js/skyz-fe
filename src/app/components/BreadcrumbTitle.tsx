@@ -2,7 +2,7 @@ import React from 'react';
 
 const BreadcrumbTitle: React.FC = () => {
   return (
-    <div className="pt-8 pb-4 lg:py-4 4xl:py-20 px-6 lg:px-8 4xl:px-24">
+    <div className="pt-8 pb-4 lg:py-4 4xl:pt-20 4xl:pb-12 px-6 lg:px-8 4xl:px-24">
       <nav className="mr-4 text-xs text-river-bed">
        <span>MYEDGE</span>
        <span className="px-2">/</span>

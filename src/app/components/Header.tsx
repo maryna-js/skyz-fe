@@ -12,13 +12,13 @@ const Header: React.FC = () => {
           <img src="/logo.png" alt="Logo" className="w-28" />
         </div>
         <div className="flex items-center justify-end">
-          <div className="mr-0 lg:mr-12 flex items-center justify-end">
+          <div className="flex items-center justify-end">
             <ButtonDropDown />
             <button className="flex lg:hidden ml-4">
                 <img src="/hamburger.svg" className="w-9"/>
             </button>
           </div>
-          <div className="hidden lg:block">
+          <div className="hidden lg:block ml-8">
             <SearchBar />
           </div>
         </div>

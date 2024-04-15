@@ -24,6 +24,7 @@ const config: Config = {
         'curious-blue': '#1CA2CC',
         'abbey': '#555961',
         'woodsmoke': '#131519',
+        'scarlet': '#FF1F00',
       },
       height: {
         '61px': '3.8125rem',
@@ -36,7 +37,10 @@ const config: Config = {
       screens: {
         'pm': '430px',
         '4xl': '1780px',
-      }
+      },
+      backgroundImage: theme => ({
+        'custom-background': "url('/bg-image.png')",
+      }),
     },
   },
   plugins: [],
