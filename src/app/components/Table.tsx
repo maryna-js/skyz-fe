@@ -23,8 +23,8 @@ const Table: React.FC<TableProps> = ({ data }) => {
             </td>
             <td className="py-2 pl-4 xl:pl-8 w-28 xl:w-40">
               <div className="flex items-center lg:border-l border-river-bed lg:pl-6 xl:pl-10">
-                <img src="/fnatic.svg" className="order-2 lg:order-1" />
-                <span className="uppercase pr-2 xl:pr-0 xl:pl-3 text-white-lilac text-xxs lg:text-xs">FNATIC</span>
+                <img src="/fnatic.svg" className="order-last lg:order-first" />
+                <span className="uppercase pr-2 lg:pl-2 xl:pl-3 text-white-lilac text-xxs lg:text-xs">FNATIC</span>
               </div>
             </td>
             <td className="py-2 pl-2 lg:pl-12 w-auto lg:w-28">
@@ -58,8 +58,8 @@ const Table: React.FC<TableProps> = ({ data }) => {
             </td>
             <td className="py-2 pl-4 xl:pl-8 w-28 xl:w-40">
               <div className="flex items-center lg:border-l border-river-bed lg:pl-6 xl:pl-10">
-                <img src="/sporut.svg" className="order-2 lg:order-1"/>
-                <span className="uppercase pr-2 xl:pr-0 xl:pl-3 text-white-lilac text-xxs lg:text-xs">sporut</span>
+                <img src="/sporut.svg" className="order-last lg:order-first"/>
+                <span className="uppercase pr-2 lg:pl-2 xl:pl-3 text-white-lilac text-xxs lg:text-xs">sporut</span>
               </div>
             </td>
             <td className="py-2 pl-2 lg:pl-12 w-auto lg:w-28">
@@ -94,8 +94,8 @@ const Table: React.FC<TableProps> = ({ data }) => {
             </td>
             <td className="py-2 pl-2 xl:pl-8 w-28 xl:w-40">
               <div className="flex items-center lg:border-l border-river-bed lg:pl-6 xl:pl-10">
-                <img src="/sk.svg" className="order-2 lg:order-1"/>
-                <span className="uppercase pr-2 xl:pr-0 xl:pl-3 text-white-lilac text-xxs lg:text-xs">sk gaming</span>
+                <img src="/sk.svg" className="order-last lg:order-first"/>
+                <span className="uppercase pr-2 lg:pl-2 xl:pl-3 text-white-lilac text-xxs lg:text-xs">sk gaming</span>
               </div>
             </td>
             <td className="py-2 pl-2 lg:pl-12 w-auto lg:w-28 text-white">
